@@ -138,6 +138,9 @@ Consumer 9 sleeping for 3 seconds.
 async_queue.py executed in 21.01 seconds.
 ```
 
+## `lock.py`
+Contains an example of using `asyncio.Lock` and a custom implemtation of an async lock. Also, contains an example of implementing an async context manager using by implementing `__aenter__` and `__aexit__`.
+
 ## `semaphore.py`
 Contains an example of using `asyncio.Semaphore`. 10 tasks are created that much each sleep for 5 seconds, but only 5 tasks at a time can acquire the semaphore, making the entire program take 10 seconds.
 

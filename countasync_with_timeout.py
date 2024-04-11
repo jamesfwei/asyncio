@@ -13,7 +13,7 @@ async def main():
             await asyncio.gather(count(), count(), count())
     except asyncio.TimeoutError:
         print("The long operation timed out!")
-    
+
     print("This statement always runs.")
 
 
